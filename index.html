@@ -3,96 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nexelio Marketing - Digital Marketing Agency</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <title>Nexelio Marketing - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
 
-    <header>
-        <div class="container">
-            <h1>Nexelio Marketing</h1>
-            <nav>
-                <ul>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
 
     <section class="hero">
-        <div class="container">
-            <h2>Grow Your Business with <span>Nexelio Marketing</span></h2>
-            <p>We provide expert digital marketing services to help you scale and succeed.</p>
-            <a href="#contact" class="cta-btn">Get Started</a>
+        <video autoplay muted loop>
+            <source src="assets/background-video.mp4" type="video/mp4">
+        </video>
+        <div class="hero-text">
+            <h1>Nexelio Marketing</h1>
+            <p>Transforming Digital Experiences</p>
+            <a href="#services" class="explore-btn">Explore Services ⬇</a>
         </div>
     </section>
 
-    <section id="services">
-        <div class="container">
-            <h2>Our Services</h2>
-            <div class="services-list">
-                <div class="service">
-                    <h3>SEO Optimization</h3>
-                    <p>Boost your rankings with our advanced SEO strategies.</p>
-                </div>
-                <div class="service">
-                    <h3>Social Media Marketing</h3>
-                    <p>Engage with your audience and grow your brand online.</p>
-                </div>
-                <div class="service">
-                    <h3>Web Development</h3>
-                    <p>We build stunning, high-converting websites for businesses.</p>
-                </div>
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-container">
+            <div class="service">
+                <img src="assets/events.jpg" alt="Events & Activations">
+                <h3>Events & Activations</h3>
+            </div>
+            <div class="service">
+                <img src="assets/branding.jpg" alt="Branding & Design">
+                <h3>Branding & Creative Design</h3>
+            </div>
+            <div class="service">
+                <img src="assets/animation.jpg" alt="Video & Animation">
+                <h3>Video, Animation & Audio</h3>
             </div>
         </div>
     </section>
 
-    <section id="about">
-        <div class="container">
-            <h2>About Us</h2>
-            <p>Nexelio Marketing is a result-driven digital marketing agency committed to helping businesses succeed online. Our team specializes in SEO, social media, and web development.</p>
-        </div>
-    </section>
-
-    <!-- 3D Image Showcase -->
-    <section id="3d-showcase">
-        <div class="container">
-            <h2>Our 3D Showcase</h2>
-            <img src="your-3d-image.jpg" class="image-3d" alt="3D Image">
-            <p>Experience the power of high-end marketing with our innovative solutions.</p>
-        </div>
-    </section>
-
-    <!-- 3D Model Viewer -->
-    <section id="3d-model">
-        <div class="container">
-            <h2>Explore Our 3D Model</h2>
-            <canvas id="3dCanvas"></canvas>
-        </div>
-    </section>
-
-    <section id="contact">
-        <div class="container">
-            <h2>Contact Us</h2>
-            <p>Ready to scale your business? Let's work together!</p>
-            <p><strong>📞 Phone:</strong> 9899300589</p>
-            <p><strong>📧 Email:</strong> <a href="mailto:NexelioMarketing26@gmail.com">NexelioMarketing26@gmail.com</a></p>
-            <a href="mailto:NexelioMarketing26@gmail.com" class="cta-btn">Email Us</a>
-        </div>
-    </section>
+    <a href="https://wa.me/9899300589" class="whatsapp-float" target="_blank">Let's Talk</a>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2025 Nexelio Marketing. All rights reserved.</p>
-        </div>
+        <p>&copy; 2025 Nexelio Marketing</p>
     </footer>
-
-    <script src="script.js"></script>
 
 </body>
 </html>
